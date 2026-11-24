@@ -1,0 +1,11 @@
+scenario,fault,response_ms,reset_blocked_while_present,reset_ok_after_clear
+"OV (cell simulator ramp, 5 mV/s)",OV,800,True,True
+"UV (cell simulator ramp, 5 mV/s)",UV,400,True,True
+OCD (load step 1 A to 7 A),OCD,100,True,True
+OCC (charge step to 3.5 A),OCC,200,True,True
+"OTD (hair dryer, 0.5 degC/s)",OTD,1200,True,True
+OTC (warm while charging),OTC,1600,True,True
+UTC (cold while charging),UTC,900,True,True
+Sensor: open NTC,SENSOR,200,True,True
+Sensor: ADC frozen,SENSOR,600,True,True
+"Short circuit, hardware comparator",SC (hardware),0.11,True,True

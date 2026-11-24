@@ -1,0 +1,9 @@
+case,cycle,spread_end_of_charge_mV,delivered_Ah
+Balancing off,1,48.0,2.33
+Balancing off,2,48.0,2.33
+Balancing off,3,48.0,2.33
+Balancing off,4,48.0,2.33
+Balancing on,1,14.2,2.3911
+Balancing on,2,14.0,2.4011
+Balancing on,3,14.0,2.4011
+Balancing on,4,14.0,2.4011
